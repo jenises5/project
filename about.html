@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content =" width= device_width, initial-scale=1.0">
+<title>About Mexico</title>
+<style>
+    /*base style */
+    body {
+        font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        margin : 0;
+        padding :0;
+        color: #333;
+        background-color: #f9f9f9; 
+    }
+
+    /* style sa header*/
+     header {
+        font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        margin : 0;
+        padding: 0;
+        background-color: #f9f9f9;
+     }
+
+     .header-content {
+        max-width: 1200px;
+        margin :auto;
+        padding : 0 2rem
+     }
+     h1{
+       margin : 0;
+       font-size : 3rem;
+       text-shadow: 2px 2px 4x rgba(0,0,0,0.5); 
+     }
+     /* content sa main*/
+     .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .intro {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .section {
+            margin-bottom: 3rem;
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            color: #006847;
+            border-bottom: 2px solid #ce1126;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        /* gallarey */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 2rem 0;
+        }
+        
+        .gallery-item {
+            width: 31%;
+            margin-bottom: 2rem;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .gallery-caption {
+            padding: 1rem;
+            text-align: center;
+            font-style: italic;
+        }
+         /* Facts section */
+         .facts-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .fact-card {
+            width: 23%;
+            background-color: #f5f5f5;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .fact-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ce1126;
+        }
+        
+        /* Footer styles */
+        footer {
+            background-color: #006847;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+         /* Responsive styles */
+         @media (max-width: 768px) {
+            .gallery-item {
+                width: 48%;
+            }
+            
+            .fact-card {
+                width: 48%;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .gallery-item, .fact-card {
+                width: 100%;
+            }
+        }
+    </style>
+  </head>
+   <body>
+    <header>
+        <div class="header-content" > 
+            <h1> Mexico</h1>
+            <p> United Mexican States | Estados Unidos Mexicanos</p>
+        </div>
+    </header>
+   </body> 
+   <div class="container">
+    <div class="intro">
+        <p>Welcome to the vibrant and diverse country of Mexico, a land of rich history, colorful traditions, breathtaking landscapes, and warm hospitality.</p>
+    </div>
+
+    <div class="section">
+        <h2>Overview</h2>
+        <p>Mexico, officially the United Mexican States, is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico.</p>
+        <p>With an estimated population of over 130 million people, Mexico is the 10th most populous country in the world. It is a federation comprising 31 states and Mexico City, its capital and largest metropolis.</p>
+    </div>
+
+    <div class="section">
+        <h2>Geography & Landscapes</h2>
+        <p>Mexico has incredibly diverse geography, ranging from tropical forests and scenic beaches to deserts and rugged mountains. The country is home to a wide range of ecosystems and natural wonders:</p>
+        <ul>
+            <li>The Sierra Madre mountain ranges run through much of the country</li>
+            <li>Beautiful coastlines along the Pacific Ocean, Gulf of Mexico, and Caribbean Sea</li>
+            <li>The Sonoran and Chihuahuan deserts in the north</li>
+            <li>Tropical rainforests in the south, particularly in Chiapas and the Yucatán Peninsula</li>
+            <li>Copper Canyon (Barrancas del Cobre), which is larger and deeper than the Grand Canyon</li>
+        </ul>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/320" alt="Mexican beach landscape">
+                <div class="gallery-caption">Beautiful beaches along Mexico's extensive coastline</div>
+            </div>
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/320" alt="Desert landscape">
+                <div class="gallery-caption">The diverse desert landscapes of northern Mexico</div>
+            </div>
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/320" alt="Copper Canyon">
+                <div class="gallery-caption">The majestic Copper Canyon system in Chihuahua</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>History & Heritage</h2>
+        <p>Mexico's history spans thousands of years, from ancient civilizations to colonial rule and independence:</p>
+        <ul>
+            <li><strong>Pre-Columbian Era:</strong> Home to advanced civilizations including the Olmec, Maya, Toltec, and Aztec</li>
+            <li><strong>Colonial Period:</strong> Under Spanish control from the early 16th century until independence in 1821</li>
+            <li><strong>Modern Mexico:</strong> Shaped by events such as the Mexican Revolution (1910-1920), which established the political and social foundation of today's Mexico</li>
+        </ul>
+        <p>The country's rich archaeological sites like Chichen Itza, Teotihuacan, and Palenque are testament to its grand pre-Hispanic civilizations and continue to attract visitors from around the world.</p>
+    </div>
+    
+    <div class="section">
+        <h2>Culture & Traditions</h2>
+        <p>Mexican culture is a fusion of indigenous and European elements, creating one of the world's richest and most diverse cultural identities:</p>
+        <ul>
+            <li><strong>Music & Dance:</strong> Mariachi, ranchera, norteño music, and traditional dances like Jarabe Tapatío</li>
+            <li><strong>Art:</strong> Vibrant folk art, intricate crafts, and the powerful works of renowned artists like Frida Kahlo and Diego Rivera</li>
+            <li><strong>Celebrations:</strong> Colorful festivals including Día de los Muertos (Day of the Dead), which honors deceased loved ones</li>
+            <li><strong>Cuisine:</strong> One of the world's most beloved culinary traditions, featuring regional variations of tacos, mole, tamales, and more</li>
+        </ul>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/320" alt="Traditional Mexican dance">
+                <div class="gallery-caption">Traditional Mexican folkloric dance performances</div>
+            </div>
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/320" alt="Day of the Dead celebration">
+                <div class="gallery-caption">Colorful Día de los Muertos celebrations</div>
+            </div>
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/320" alt="Mexican cuisine">
+                <div class="gallery-caption">Rich and diverse Mexican cuisine</div>
+            </div>
+        </div>
+    </div>
+
+
+
+</html>
